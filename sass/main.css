@@ -135,7 +135,7 @@ body {
   transition: color 1s;
 }
 .services__container .card__link:hover {
-  color: rgb(214, 213, 213);
+  color: white;
 }
 
 /* Banner 2 */
@@ -145,7 +145,7 @@ body {
   max-width: 65vw;
 }
 .banner2__container .banner2__title {
-  color: rgb(214, 213, 213);
+  color: white;
   font-size: 70px;
   font-style: italic;
   font-weight: 500;
@@ -212,6 +212,10 @@ body {
 .grid-container-equipo {
   display: grid;
   grid-template: "navbar" auto "main" auto "footer" auto;
+}
+
+.spacing {
+  padding: 5px;
 }
 
 /*--------------------------------------------*/
